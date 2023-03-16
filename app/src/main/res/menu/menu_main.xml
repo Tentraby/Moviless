@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.testandroid.ui.MainActivity">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_baseline_auto_fix_high_24"
+        android:orderInCategory="101"
+        android:title="Popular" />
+    <item
+        android:id="@+id/homeTopRated"
+        android:icon="@drawable/ic_baseline_star_24"
+        android:orderInCategory="102"
+        android:title="TopRated" />
+    <item
+        android:id="@+id/homeUpcoming"
+        android:icon="@drawable/ic_baseline_upcoming_24"
+        android:orderInCategory="103"
+        android:title="Upcoming" />
+</menu>
